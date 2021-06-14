@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .flex {
@@ -17,7 +17,7 @@ body {
 /* header  */
 header {
     height: 80px;
-    background-color: white;
+    /* background-color: rgb(0, 0, 0); */
 }
 
 
@@ -40,4 +40,18 @@ main {
 footer {
     background-color: rgb(34, 34, 34);
     height: 80px;
-}    
+}  
+
+
+.speaker-view {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+   
+}
+
+.speaker-view i {
+    padding: 8px 5px;
+    background-color: rgb(74, 74, 74);
+    border-radius: 5px;
+}
