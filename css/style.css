@@ -40,37 +40,21 @@ main {
 
 main .gallery-view {
     height: 100%;
+    overflow-y: auto;  
     padding: 20px 0;
     flex-wrap: wrap;  
     justify-content: center;
     align-items: center;
-    overflow-y: auto;      
 }
 
-
+main .gallery-view img {
+    padding: 5px 5px;
+}
 
 
 /* footer */
 footer {
     background-color: rgb(34, 34, 34);
     height: 80px;
-    align-items:center;
-    justify-content: space-between;
-
 }  
-
-
-
-
-/* footer */
-/* footer .tools {
-    text-align: center;
-    align-content: center; */
-    /* flex-grow: 1; */
-}  
-/* 
-footer .tools i {
-    padding: 5px 30px;
-    color: rgb(255, 255, 255);
-}  */
 
