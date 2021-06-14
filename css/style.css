@@ -20,6 +20,22 @@ header {
     background-color: white;
 }
 
+
+/* main  */
+main {
+    height: calc(100vh - 160px);
+}
+
+.gallery-view {
+    height: 100%;
+    padding: 20px 0;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;      
+}
+
+
 /* footer */
 footer {
     background-color: rgb(34, 34, 34);
