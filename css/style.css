@@ -20,13 +20,25 @@ header {
     /* background-color: rgb(0, 0, 0); */
 }
 
+header .speaker-view {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+   
+}
+
+header .speaker-view i {
+    padding: 8px 5px;
+    background-color: rgb(74, 74, 74);
+    border-radius: 5px;
+}
 
 /* main  */
 main {
     height: calc(100vh - 160px);
 }
 
-.gallery-view {
+main .gallery-view {
     height: 100%;
     padding: 20px 0;
     flex-wrap: wrap;  
@@ -36,22 +48,29 @@ main {
 }
 
 
+
+
 /* footer */
 footer {
     background-color: rgb(34, 34, 34);
     height: 80px;
+    align-items:center;
+    justify-content: space-between;
+
 }  
 
 
-.speaker-view {
-    text-align: right;
-    padding-top: 10px;
-    padding-right: 10px;
-   
-}
 
-.speaker-view i {
-    padding: 8px 5px;
-    background-color: rgb(74, 74, 74);
-    border-radius: 5px;
-}
+
+/* footer */
+/* footer .tools {
+    text-align: center;
+    align-content: center; */
+    /* flex-grow: 1; */
+}  
+/* 
+footer .tools i {
+    padding: 5px 30px;
+    color: rgb(255, 255, 255);
+}  */
+
