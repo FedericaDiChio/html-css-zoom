@@ -67,6 +67,10 @@ footer {
     padding: 10px 30px; 
 }
 
+.tools.center .fa-share-square {
+    color: rgb(75, 200, 0);
+} 
+
 .tools.right {
     background-color: rgb(74, 74, 74);
 }
@@ -76,7 +80,3 @@ footer {
     align-self: center;
     color: rgb(255, 36, 57); 
 }
-
-.tools.center .fa-share-square {
-    color: rgb(75, 200, 0);
-} 
