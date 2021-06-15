@@ -1,6 +1,31 @@
+
+/* generics */
 * {
     box-sizing: border-box;
     margin: 0;
     bottom:0;
 }
 
+body {
+    background-color: black;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* header  */
+header {
+    height: 80px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.speaker-tools > i {
+    padding: 8px 5px;
+    background-color: rgb(74, 74, 74);
+    border-radius: 5px;
+}
